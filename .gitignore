@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+staticfiles/
+media/
+videos/
+.env
+*.env
+
+# Virtual Environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+.cache/
+dist/
+build/
+
+# React Specific
+*.log
+*.lock
+coverage/
+public/static/
+public/build/
+.DS_Store
+
+# Miscellaneous
+.idea/
+.vscode/
+*.swp
+*~
+.project
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Ignore Python Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore .env files (for environment-specific configurations)
+*.env
+
+# Ignore JetBrains IDE settings
+.idea/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore coverage reports
+.coverage
+.coverage.*
+
+# Ignore macOS files
+.DS_Store
